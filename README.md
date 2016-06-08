@@ -1,28 +1,23 @@
-Yii2 images , загружка отображение изображений
+Yii2 likes , лайки и дизлайки записям
 =====================
 
 
 ## Install
 ```
-php composer.phar require --prefer-dist mitrm/yii2-images-module "dev-master"
+php composer.phar require --prefer-dist mitrm/yii2-likes-module "dev-master"
 ```
 
 
 - Run migrations:
 
 ```
-php yii migrate --migrationPath=@mitrm/images/migrations
+php yii migrate --migrationPath=@mitrm/likes/migrations
 ```
 
 In config file:
 
 ```php
-    'modules' => [
-        'short_link' => [
-            'class' => 'mitrm\images\Module',
-            'domain' => site.ru // домен отображения изображений
-        ],
-    ],
+
 ```
 
 ## Usage
