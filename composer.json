@@ -1,0 +1,25 @@
+{
+	"name": "mitrm/yii2-likes-module",
+	"version": "dev-master",
+	"description": "Лайки/дизлайки",
+	"type": "yii2-extension",
+	"keywords": ["images", "yii2"],
+	"minimum-stability": "dev",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mitskevich Ruslan",
+			"email": "mitrm.ru@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*",
+	},
+	"autoload": {
+		"psr-4": {
+			"mitrm\\likes\\": ""
+		}
+	}
+}
